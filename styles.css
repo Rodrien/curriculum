@@ -17,11 +17,13 @@ li{
     border:solid red;
     width:25%;*/
     text-decoration: underline;
+    color:white;
 }
 
 .subTitle{
     text-align: center;
     padding-bottom: 2%;
+    color:white;
 }
 
 .topImage{
@@ -44,4 +46,15 @@ li{
 .pie{
     height: 2%;
     background-color: black;
+}
+
+.card{
+    position: relative;
+    width:90%;
+    margin: auto auto; /* Centra los div */
+    /*border-style: double;
+    border: rgb(59, 161, 219);*/
+    padding-bottom: 1%;
+    padding-left: 1%;
+    box-shadow: 10px 10px 5px grey;
 }
