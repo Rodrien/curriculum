@@ -64,9 +64,10 @@ a{
 
 .pie{
     text-align: center;
+    color:white;
     height: 2%;
     padding-bottom: 1%;
-    background-color: blue;
+    background-color: rgb(39, 37, 37);
 }
 
 .madeBy{
