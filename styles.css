@@ -11,6 +11,10 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .title{
     /*margin:auto;
     text-align: center;
@@ -18,16 +22,16 @@ li{
     width:25%;*/
     text-decoration: underline;
     color:white;
+    text-align: center;
 }
 
 .subTitle{
     text-align: center;
-    padding-bottom: 2%;
     color:white;
+    padding-bottom: 2%;
 }
 
 .topImage{
-    text-align: center;
     background-image: url(./Images/background.jpg);
 }
 
@@ -37,24 +41,43 @@ li{
 }
 
 .me{
-    margin-top: 1%;
     border: 3px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 360px;
-}
-
-.pie{
-    height: 2%;
-    background-color: black;
+    display: block;
+    margin: 0 auto;
 }
 
 .card{
-    position: relative;
     width:90%;
-    margin: auto auto; /* Centra los div */
+    margin: 0 auto; /* Centra los div */
     /*border-style: double;
     border: rgb(59, 161, 219);*/
     padding-bottom: 1%;
     padding-left: 1%;
     box-shadow: 10px 10px 5px grey;
+}
+
+/*.card:hover{
+    background-color: gold;
+}*/
+
+.pie{
+    text-align: center;
+    height: 2%;
+    padding-bottom: 1%;
+    background-color: blue;
+}
+
+.madeBy{
+    padding-top: 5px;
+}
+
+.socialF{
+    text-align: center;
+}
+
+.socialImage{
+    padding-left: 1%;
+    padding-right: 1%;
 }
