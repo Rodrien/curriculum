@@ -1,92 +1,117 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Enrique Rodriguez</title>
-        <link rel="icon" href="http://example.com/favicon.png">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <!--Comentario-->
-        </header>
-        <div class="topImage">
-            <div class="blur">
-                <img height= 300 src="Images/me.jpeg" class="me">
-                <div>
-                    <span>
-                        <span class="title">
-                            <h1>Enrique Rodriguez</h1>
-                        </span>
-                        <p class="subTitle">Estudiante de Ingenieria</p>
-                    </span>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrique Rodriguez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="Main-Nav">
+        <div class="Link Link-Proyectos">
+            <p>Proyectos</p>
+        </div>
+        <div class="Link Link-Educacion">
+            <p>Educacion</p>
+        </div>
+        <div class="Link Link-Sobre-Mi">
+            <p>Sobre Mi</p>
+        </div>
+    </nav>
+    <div class="Hero-Header">
+        <div class="Header-Left">
+            <!--Add main photo-->
+            <img class="My-Photo" src="https://avatars0.githubusercontent.com/u/32500616?s=400&u=0edadacd2f80ba11effba6095a5ec23fdd83ded8&v=4" alt="Personal photo">
+        </div>
+        <div class="Header-Right">
+            <div class="Title-Block">
+                <p class="Main-Title">Enrique Rodriguez</p>
+                <p class="Sub-Title">Estudiante de Ingenieria</p>
+                <p class="Sub-Title">Bachiller Informatico</p>
+            </div>
+            <div class="socialF">
+                <a href="https://www.linkedin.com/in/enrique-rodriguez-506891153/" target="__blank">
+                    <img class="socialImage" src="Images/linkedinLogo.png" height="30">
+                </a>
+                <a href="mailto:enrodriguez1998@gmail.com" target="__blank">
+                    <img class="socialImage" src="Images/gmailLogo.png" height="30">
+                </a>
+                <a href="https://twitter.com/Rodrien98" target="__blank">
+                    <img class="socialImage" height="35" src="Images/twitterLogo.png"> 
+                </a>
             </div>
         </div>
-
-        <div class="socialF">
-            <a href="https://www.linkedin.com/in/enrique-rodriguez-506891153/" target="__blank">
-                <img class="socialImage" src="Images/linkedinLogo.png" height="30">
-            </a>
-            <a href="mailto:enrodriguez1998@gmail.com" target="__blank">
-                <img class="socialImage" src="Images/gmailLogo.png" height="30">
-            </a>
-            <a href="https://twitter.com/Rodrien98" target="__blank">
-                <img class="socialImage" height="35" src="Images/twitterLogo.png"> 
-            </a>
-        </div>
-
-        <div class="card">
-            <h2>Proyectos</h2>
-            <h3>A* Path Finder</h3>
-            <p>Es una implementacion del algoritmo A* el cual
-                encuentra un camino de largo minimo entre dos puntos.
-                Fue implementado en Python utilizando PyGame.
-            </p>
-            <img src="Proyectos/PathFinder.png" height="200">
-            <a href="https://github.com/Rodrien/AStarPathFinder" target="__blank">
-                <img src="Images/gitLogo.png" height="30">
-            </a>
-        </div>
-
-        <div class="card">
-            <h2>Estudios Previos</h2>
-            <h3>Bachillerato en Informatica</h3>
-            <p>Realizado en el Instituto Tecnologico Superior, en Montevideo
-                 Uruguay.
-            </p>
-        </div>
-
-        <div class="card">
-            <h2>Materias Exoneradas</h2>
-            <li>Calculo 1</li>
-            <li>Calculo 2</li>
-            <li>Mathematica Discreta 1</li>
-            <li>Mathematica Discreta 2</li>
-            <li>Gal 1</li>
-            <li>Gal 2</li>
-            <li>Programacion 1</li>
-            <li>Programacion 2</li>
-            <li>Economia</li>
-        </div>
-
-        <div class="card">
-            <h2>Examenes Pendientes</h2>
-            <li>Logica</li>
-            <li>Probabilidad y Estadistica</li>
-        </div>
-
-        <div class="card">
-            <h2>Proximas materias</h2>
-            <li>Programacion 3</li>
-            <li>Programacion 4</li>
-            <li>Arquitectura de Computadoras</li>
-        </div>
-        <br><br><br>
-        <footer class="pie">
-            <div>
-                <small class="madeBy">&copy; Copyright 2020, Roday Soluciones</small>
+    </div>
+    <div class="Main">
+        <p class="Titulo">Proyectos</p>
+        <div class="Proyectos">
+            <div class="Carta-Proyecto">
+                <a href="https://github.com/Rodrien/AStarPathFinder" target="__blank">
+                    <h3>A* Path Finder + GUI</h3>
+                    <img src="./Proyectos/PathFinder.png" alt="A* Path finder photo">
+                </a>
             </div>
-        </footer>
-    </body>
+            <div class="Carta-Proyecto">
+                <a href="https://www.instagram.com/rodayreparacionpc/" target="__blank">
+                    <h3>Roday Reparacion PC</h3>
+                    <img src="./Proyectos/RodaySolInfLogoConTexto.jpg" alt="Pc shop logo">
+                </a>
+            </div>
+            <div class="Carta-Proyecto">
+                <a href="https://github.com/Rodrien/AStarPathFinder" target="__blank">
+                    <h3>A* Path Finder + GUI</h3>
+                    <img src="./Proyectos/PathFinder.png" alt="A* Path finder photo">
+                </a>
+            </div>
+        </div>
+        <p class="Titulo">Educacion</p>
+        <div class="Educacion">
+            <div class="Carta-Educacion">
+                <h3>Ingenieria en Computacion</h3>
+                <p>Realizado en la Facultad de Ingenieria.</p>
+                <h4>Materias Exoneradas</h4>
+                <li>Calculo 1</li>
+                <li>Calculo 2</li>
+                <li>Gal 1</li>
+                <li>Gal 2</li>
+                <li>Mathematica Discreta 1</li>
+                <li>Mathematica Discreta 2</li>
+                <li>Probabilidad y Estadistica</li>
+                <li>Programacion 1</li>
+                <li>Programacion 2</li>
+                <li>Economia</li>
+                <h4>Cursando</h4>
+                <li>Programacion 3</li>
+                <li>Metodos Numericos</li>
+                <li>Arquitectura de Computadoras</li>
+
+            </div>
+            <div class="Carta-Educacion">
+                <h3>EMT en Informatica</h3>
+                <p>Realizado en el Instituto Tecnologico Superior, en Montevideo
+                 Uruguay.</p>
+            </div>
+            <div class="Carta-Educacion">
+                <h3>Idiomas</h3>
+                <br>
+                <li>Español nativo</li>
+                <li>Ingles nativo</li>
+            </div>
+        </div>
+        <p class="Titulo">Sobre Mi</p>
+        <div class="Sobre-Mi">
+            
+        </div>
+    </div> 
+    <footer class="pie">
+        <div>
+            <small class="madeBy">&copy; Copyright 2020, Roday Soluciones</small>
+        </div>
+        <div class="Social"> <!--Agregar logos redes sociales-->
+
+        </div>
+    </footer>
+</body>
 </html>
