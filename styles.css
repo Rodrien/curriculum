@@ -189,6 +189,14 @@ a{
     text-decoration: underline;
 }
 
+.Sub-Carta-0{
+    display: flex;
+}
+
+.Sub-Carta-1{
+    width:50%;
+}
+
 .Sobre-Mi{
 
 }
